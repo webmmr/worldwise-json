@@ -1,9 +1,76 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "cities": [
+    {
+      "cityName": "Lisbon",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "My favorite city so far!",
+      "position": {
+        "lat": 38.727881642324164,
+        "lng": -9.140900099907554
+      },
+      "id": 73930385
+    },
+    {
+      "cityName": "Madrid",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2027-07-15T08:22:53.976Z",
+      "notes": "",
+      "position": {
+        "lat": 40.46635901755316,
+        "lng": -3.7133789062500004
+      },
+      "id": 17806751
+    },
+    {
+      "cityName": "Berlin",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2027-02-12T09:24:11.863Z",
+      "notes": "Amazing 😃",
+      "position": {
+        "lat": 52.53586782505711,
+        "lng": 13.376933665713324
+      },
+      "id": 98443197
+    },
+    {
+      "cityName": "Kathmandu",
+      "country": "Nepal",
+      "emoji": "🇳🇵",
+      "notes": "It was the best trip ever, arguably.",
+      "date": "2023-08-08T06:24:53.911Z",
+      "position": {
+        "lat": "27.78077164334822",
+        "lng": "85.34179687500001"
+      },
+      "id": 98443198
+    },
+    {
+      "cityName": "Besisahar",
+      "country": "Nepal",
+      "emoji": "🇳🇵",
+      "notes": "test",
+      "date": "2023-08-08T06:25:22.462Z",
+      "position": {
+        "lat": "28.23301976999074",
+        "lng": "84.39147949218751"
+      },
+      "id": 98443199
+    },
+    {
+      "cityName": "Istanbul",
+      "country": "Turkiye",
+      "emoji": "🇹🇷",
+      "notes": "just a layover",
+      "date": "2023-08-08T06:26:52.111Z",
+      "position": {
+        "lat": "41.046216814520655",
+        "lng": "28.970947265625004"
+      },
+      "id": 98443200
+    }
+  ]
 }
